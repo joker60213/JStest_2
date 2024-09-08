@@ -35,7 +35,7 @@ async function getRequest(value, limit) {
             createElem(repos);
         }
     } catch (err) {
-        console.error(err);
+        console.error('Fetch error: ', error);
     }
 }
 
